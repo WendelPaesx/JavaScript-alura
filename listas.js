@@ -11,7 +11,15 @@ const listasDeDestinos = new Array(
     
 
 );
- listasDeDestinos.push(`curitiba`) // adicionando um item na listasDeDestinos
+ listasDeDestinos.push(`curitiba`);// adicionando um item na listasDeDestinos
 console.log("Destinos possiveis");
-console.log(listasDeDestinos)
+console.log(listasDeDestinos);
+
+listasDeDestinos.splice(1,1);
+console.log(listasDeDestinos);
+console.log(listasDeDestinos[1],listasDeDestinos[0]);
+
+
+
+
 
