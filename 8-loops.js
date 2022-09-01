@@ -40,8 +40,8 @@ if (podeComprar && destinoExiste) {
 }
 
 
-for (let cont = 0; cont < 3; cont ++) {
-    if (listasDeDestinos[contador] == Destino) {
+for (let i = 0; i < 3; i ++) {
+    if (listasDeDestinos[i] == Destino) {
         destinoExiste = true;
 
     }
